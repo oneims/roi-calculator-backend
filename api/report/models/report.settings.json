@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reports",
+  "info": {
+    "name": "Report",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "industry": {
+      "type": "string",
+      "required": true
+    },
+    "current_annual_revenue": {
+      "type": "string",
+      "required": true
+    },
+    "yoy_growth_rate": {
+      "type": "string",
+      "required": true
+    },
+    "revenue_growth_goal": {
+      "type": "string",
+      "required": true
+    },
+    "average_revenue_per_customer": {
+      "type": "string",
+      "required": true
+    },
+    "gross_margin_per_sale": {
+      "type": "string",
+      "required": true
+    },
+    "average_conversion_rate_on_meetings_to_opportunities": {
+      "type": "string",
+      "required": true
+    },
+    "average_close_ratio_from_opportunities_to_deals": {
+      "type": "string",
+      "required": true
+    },
+    "estimated_sales_cycle": {
+      "type": "string",
+      "required": true
+    },
+    "average_monthly_website_traffic": {
+      "type": "string",
+      "required": true
+    },
+    "average_monthly_leads_from_website": {
+      "type": "string",
+      "required": true
+    },
+    "average_monthly_leads_from_all_other_sources": {
+      "type": "string",
+      "required": true
+    },
+    "percentage_of_qualified_leads": {
+      "type": "string",
+      "required": true
+    },
+    "current_annual_marketing_budget": {
+      "type": "string",
+      "required": true
+    },
+    "percentage_of_marketing_budget_spent_on_online_advertisement": {
+      "type": "string",
+      "required": true
+    },
+    "target_date_to_reach_revenue": {
+      "type": "string"
+    },
+    "record_uid": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}
