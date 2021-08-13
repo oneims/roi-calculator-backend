@@ -77,6 +77,9 @@
     "record_uid": {
       "type": "uid",
       "required": true
+    },
+    "email_address": {
+      "type": "email"
     }
   }
 }
